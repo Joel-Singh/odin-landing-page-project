@@ -7,10 +7,53 @@
 }
 
 .quote-container {
-    background-color: #E5E7EB; 
+    background-color: #E5E7EB;
 }
 
-.call-to-action, .call-to-action button {
+.call-to-action {
     background-color: #3882F6; 
 }
 
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8; 
+}
+
+.header span a {
+    color: white; 
+}
+
+.main-title h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8; 
+}
+
+.subtext {
+    font-size: 18px; 
+    color: #E5E7EB; 
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937; 
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+.call-to-action {
+    color: white; 
+}
+
+button {
+    background-color: #3882F6; 
+    color: white; 
+}
+
+.footer {
+    color: white; 
+}
