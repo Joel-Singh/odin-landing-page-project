@@ -1,0 +1,16 @@
+.header, .main-title, .footer {
+    background-color: #1F2937;
+}
+
+.information {
+    background-color: white; 
+}
+
+.quote-container {
+    background-color: #E5E7EB; 
+}
+
+.call-to-action, .call-to-action button {
+    background-color: #3882F6; 
+}
+
