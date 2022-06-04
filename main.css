@@ -30,7 +30,7 @@ body {
     font-weight: bolder;
 }
 
-.header span a {
+.links a {
     color: white; 
     text-decoration: none; 
 }
@@ -62,8 +62,16 @@ button {
 }
 
 
+.links {
+    display: flex; 
+    gap: 20px; 
+} 
+
 .header {
-    height: 35px; 
+    height: 50px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
 } 
 
 .main-title, .information, .quote-container,
