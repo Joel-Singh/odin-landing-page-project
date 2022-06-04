@@ -27,10 +27,12 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8; 
+    font-weight: bolder;
 }
 
 .header span a {
     color: white; 
+    text-decoration: none; 
 }
 
 .main-title h1 {
