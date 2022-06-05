@@ -64,6 +64,14 @@ body {
     align-items: center;
 }
 
+.main-title-start button {
+    font-weight: bold;
+    width: 129px;
+    height: 35px;
+    border-radius: 12px;
+    margin-top: 10px; 
+}
+
 .subtext {
     font-size: 18px; 
     color: #E5E7EB; 
