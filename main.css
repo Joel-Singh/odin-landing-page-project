@@ -54,14 +54,15 @@ body {
 }
 
 .main-title-end {
-    background-color: rgb(170, 167, 167);
+    background-color: rgb(131 129 129);
     height: 250px;
-    width: 500px;  
+    width: 500px;
     margin-right: 0px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white; 
 }
 
 .main-title-start button {
