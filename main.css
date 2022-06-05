@@ -14,6 +14,36 @@ body {
 
 .information {
     background-color: white; 
+    text-align: center;
+}
+
+.information h1 {
+    margin: 25px 0px; 
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+} 
+
+.card-image {
+    border: cornflowerblue;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    height: 150px; 
+    width: auto;
+}
+
+.card {
+    width: 150px; 
+}
+
+.card-subtext {
+    margin-top: 10px; 
+    color:rgb(105, 103, 103);
+
 }
 
 .quote-container {
