@@ -46,9 +46,7 @@ body {
 
 }
 
-.call-to-action {
-    background-color: #3882F6; 
-}
+
 
 
 .header-logo {
@@ -91,7 +89,7 @@ body {
     color: white; 
 }
 
-.main-title-start button {
+.main-title-start button, .call-to-action button {
     font-weight: bold;
     width: 129px;
     height: 35px;
@@ -146,16 +144,41 @@ button {
 } 
 
 .main-title, .information, .quote-container,
-.call-to-action {
+.call-to-action-container {
     height: 350px; 
+}
+
+.call-to-action {
+    color: white; 
+}
+
+.call-to-action-container {
+    background-color: white;
+    display: flex; 
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6; 
+    width: 85%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.call-to-action button {
+    border-color: white;
+}
+
+.call-to-action-subtext {
+    font-size: larger;
 }
 
 
 .footer {
     color: white; 
     height: 40px; 
-}
-
-.call-to-action {
-    color: white; 
 }
