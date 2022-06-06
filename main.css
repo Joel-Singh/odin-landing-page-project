@@ -46,10 +46,6 @@ body {
 
 }
 
-.quote-container {
-    background-color: #E5E7EB;
-}
-
 .call-to-action {
     background-color: #3882F6; 
 }
@@ -108,14 +104,27 @@ body {
     color: #E5E7EB; 
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937; 
+    display: flex;
+    flex-direction: column;
+    margin: 0px 300px; 
 }
 
 .quote-author {
     font-weight: bold;
+    font-style: normal;
+    font-size: 20px; 
+    align-self: flex-end; 
 }
 
 button {
